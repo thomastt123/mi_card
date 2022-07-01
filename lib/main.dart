@@ -24,7 +24,23 @@ class MyApp extends StatelessWidget {
             children: [
               Container(
                 // color: Colors.white,
-                child: Text('hello'),
+                child: Text('1'),
+                decoration: BoxDecoration(
+                  border: Border.all(
+                      color: Colors.lightBlue,
+                      width: 5,
+                      style: BorderStyle.solid),
+                  borderRadius: BorderRadius.all(
+                    Radius.circular(10),
+                  ),
+                ),
+                height: 100.0,
+                margin: EdgeInsets.symmetric(vertical: 20.0, horizontal: 100.0),
+                width: 100.0,
+              ),
+              Container(
+                // color: Colors.white,
+                child: Text('2'),
                 decoration: BoxDecoration(
                     border: Border.all(
                         color: Colors.lightBlue,
@@ -39,22 +55,7 @@ class MyApp extends StatelessWidget {
               ),
               Container(
                 // color: Colors.white,
-                child: Text('hello'),
-                decoration: BoxDecoration(
-                    border: Border.all(
-                        color: Colors.lightBlue,
-                        width: 5,
-                        style: BorderStyle.solid),
-                    borderRadius: BorderRadius.all(
-                      Radius.circular(10),
-                    )),
-                height: 100.0,
-                margin: EdgeInsets.symmetric(vertical: 20.0, horizontal: 100.0),
-                width: 100.0,
-              ),
-              Container(
-                // color: Colors.white,
-                child: Text('hello'),
+                child: Text('3'),
                 decoration: BoxDecoration(
                     border: Border.all(
                         color: Colors.lightBlue,
